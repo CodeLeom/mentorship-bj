@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 100px;
+    box-sizing: content-box;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(224, 233, 233);
+    
+}
+
+nav{
+    background-color: burlywood;
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container p{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+form{
+    width: 300px;
+    padding: 20px;
+}   
+
+form div{
+    margin-bottom: 15px;
+}
+
+form label{
+    display: block;
+}
+
+form input, form textarea{
+    width: 180%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(19, 8, 0);
+}
+
+form button{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 180%;
+    border-radius: 5px;
+    margin-top: 12px;
+
+}   
+
+form button:hover{
+    background-color: cyan;
+}
+
